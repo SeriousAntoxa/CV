@@ -142,9 +142,16 @@ h4 {
 }
 
 .nav__menu-items {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
-   flex-direction: row;
-   justify-content: space-between;
+   -webkit-box-orient: horizontal;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: row;
+           flex-direction: row;
+   -webkit-box-pack: justify;
+       -ms-flex-pack: justify;
+           justify-content: space-between;
 }
 
 .nav__menu-item a {
@@ -152,10 +159,19 @@ h4 {
 }
 
 .header__main {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: space-evenly;
+   -webkit-box-orient: horizontal;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: row;
+           flex-direction: row;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-pack: space-evenly;
+       -ms-flex-pack: space-evenly;
+           justify-content: space-evenly;
    width: 100%;
    margin: 0 auto;
    position: relative;
@@ -171,8 +187,12 @@ h4 {
 }
 
 .header__foto-image {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
-   justify-content: center;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
 }
 
 .header__foto-img {
@@ -189,7 +209,9 @@ h4 {
 }
 
 .main {
-   flex: 1 1 auto;
+   -webkit-box-flex: 1;
+       -ms-flex: 1 1 auto;
+           flex: 1 1 auto;
    background: rgba(0, 0, 0, 0.7);
    border-radius: 10px;
    padding: 40px;
@@ -240,12 +262,16 @@ h4 {
 }
 
 .education__info {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
    margin: 15px 0;
 }
 
 .education__year {
-   flex: 0 0 auto;
+   -webkit-box-flex: 0;
+       -ms-flex: 0 0 auto;
+           flex: 0 0 auto;
 }
 
 .education__state {
@@ -257,12 +283,16 @@ h4 {
 }
 
 .experience__info {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
    margin: 15px 0;
 }
 
 .experience__year {
-   flex: 0 0 auto;
+   -webkit-box-flex: 0;
+       -ms-flex: 0 0 auto;
+           flex: 0 0 auto;
 }
 
 .experience__state {
@@ -270,17 +300,33 @@ h4 {
 }
 
 .skills__job-items {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
+   -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
 }
 
 .skills__job-item {
-   flex: 0 0 25%;
+   -webkit-box-flex: 0;
+       -ms-flex: 0 0 25%;
+           flex: 0 0 25%;
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
    margin: 30px 0px;
 }
 
@@ -295,9 +341,14 @@ h4 {
 
 .main__work-block {
    padding: 20px;
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
-   justify-content: center;
-   flex-wrap: wrap;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
 }
 
 .main__work-img {
@@ -313,9 +364,15 @@ h4 {
 .main__links-block {
    padding: 15px 20px;
    font-size: 18px;
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
-   flex-direction: column;
-   flex-wrap: nowrap;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   -ms-flex-wrap: nowrap;
+       flex-wrap: nowrap;
 }
 
 .main__links-block a {
@@ -364,7 +421,8 @@ h4 {
    bottom: 50px;
    background-color: rgba(255, 255, 255, 0.6);
    border-radius: 10px;
-   box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.2);
+   -webkit-box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.2);
+           box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.2);
 }
 
 .active {
@@ -381,7 +439,8 @@ h4 {
    cursor: pointer;
    background-color: rgba(255, 255, 255, 0.7);
    bottom: 54px;
-   box-shadow: 3px 6px 3px rgba(255, 255, 255, 0.2);
+   -webkit-box-shadow: 3px 6px 3px rgba(255, 255, 255, 0.2);
+           box-shadow: 3px 6px 3px rgba(255, 255, 255, 0.2);
 }
 
 .btn__up:hover .btn__arrow {

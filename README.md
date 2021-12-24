@@ -1,1 +1,1 @@
-https://seriousantoxa.github.io/CV/
+https://seriousantoxa.github.io/CV/index.html
